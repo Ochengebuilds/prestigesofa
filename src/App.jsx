@@ -11,6 +11,8 @@ import Gallery from './components/Gallery/Gallery';
 import Booking from './components/Booking/Booking';
 import Footer from './components/Footer/Footer';
 import Stickycontact from "./components/Stickycontact/Stickycontact"
+import About from './components/About/About';
+import Testimonials from './components/Testimonials/Testimonials';
 
 const App = () => {
   useEffect(() => {
@@ -25,8 +27,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <Services /> {/* Rendered here */}
+      <About />
       <Features />
       <Gallery />
+      <Testimonials />
       <Booking />
       <Footer />
       <Stickycontact />

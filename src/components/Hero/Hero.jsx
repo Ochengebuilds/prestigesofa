@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="hero-container">
         {/* Left Side: Text Content */}
         <div className="hero-content" data-aos="fade-right">

@@ -17,10 +17,10 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className={isOpen ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item"><a href="#home">Home</a></li>
+          <li className="nav-item"><a href="#hero">Home</a></li>
           <li className="nav-item"><a href="#services">Services</a></li>
           <li className="nav-item"><a href="#how-it-works">How It Works</a></li>
-          <li className="nav-item"><a href="#reviews">Reviews</a></li>
+          <li className="nav-item"><a href="#reviews"></a></li>
           <li className="nav-mobile-cta">
             <button className="nav-btn">BOOK NOW</button>
           </li>
