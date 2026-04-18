@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-container">
         {/* Left Side: Text Content */}
-        <div className="hero-content">
+        <div className="hero-content" data-aos="fade-right">
           <p className="hero-tagline">NAIROBI'S PREMIUM CLEANING SERVICE</p>
           <h1 className="hero-title">
             Deep Clean. <br />
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
 
         {/* Right Side: Visuals */}
-        <div className="hero-visual">
+        <div className="hero-visual" data-aos="fade-left">
           <img 
             src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=2000" 
             alt="Luxury Sofa Cleaning" 

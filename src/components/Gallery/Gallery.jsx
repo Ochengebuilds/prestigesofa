@@ -16,7 +16,9 @@ const Gallery = () => {
           <span className="section-subtitle">OUR WORK</span>
           <h2 className="section-title">Recent Transformations</h2>
         </div>
-        <div className="gallery-grid">
+        <div className="gallery-grid" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           {images.map((img) => (
             <div className="gallery-item" key={img.id}>
               <img src={img.url} alt={img.title} />

@@ -1,0 +1,59 @@
+.sticky-contact {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 9999;
+  }
+  
+  .contact-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* 3D Depth Shadow */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .whatsapp-btn {
+    background-color: #25D366;
+    animation: pulse-whatsapp 2s infinite;
+  }
+  
+  .call-btn {
+    background-color: var(--primary-gold);
+  }
+  
+  .contact-btn:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Subtle attention-grabbing animation */
+  @keyframes pulse-whatsapp {
+    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+    70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .sticky-contact {
+      bottom: 20px;
+      right: 20px;
+    }
+    
+    .contact-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 1.3rem;
+    }
+  }

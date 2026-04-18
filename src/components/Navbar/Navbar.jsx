@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" data-aos="fade-down">
       <div className="nav-container">
         {/* Logo Section */}
         <div className="nav-logo">

@@ -29,9 +29,9 @@ const Features = () => {
   ];
 
   return (
-    <section className="features">
-      <div className="features-container">
-        <div className="features-grid">
+    <section className="features"   data-aos="zoom-in">
+      <div className="features-container" >
+        <div className="features-grid" >
           {features.map((item, index) => (
             <div className="feature-item" key={index}>
               <div className="feature-icon">

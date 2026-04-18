@@ -32,14 +32,14 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="services" id="services">
+    <section className="services" id="services" data-aos="fade up-right">
       <div className="services-container">
         <div className="services-header">
           <span className="section-subtitle">OUR EXPERTISE</span>
           <h2 className="section-title">Professional Cleaning Services</h2>
         </div>
         
-        <div className="services-grid">
+        <div className="services-grid" data-aos="flip-left">
           {servicesData.map((service) => (
             <div key={service.id} className="service-card">
               <div className="icon-box">

@@ -6,7 +6,8 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
       <div className="footer-container">
         <div className="footer-brand">
           <h2 className="footer-logo">PRESTIGE</h2>
