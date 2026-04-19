@@ -1,35 +1,38 @@
 import React from 'react';
 import './Hero.css';
+import images from '../../assets/assets';
 
 const Hero = () => {
   return (
     <section className="hero" id="hero">
       <div className="hero-container">
-        {/* Left Side: Text Content */}
-        <div className="hero-content" data-aos="fade-right">
-          <p className="hero-tagline">NAIROBI'S PREMIUM CLEANING SERVICE</p>
+        
+        <div className="hero-visual" data-aos="zoom-out" data-aos-duration="1500">
+          <img 
+            src={images.heroBg} 
+            alt="Luxury Interior" 
+            className="hero-img"
+          />
+          <div className="hero-overlay"></div>
+        </div>
+
+        <div className="hero-content" data-aos="fade-up" data-aos-delay="400">
+          <div className="accent-line"></div>
+          <p className="hero-tagline">ESTABLISHED IN NAIROBI</p>
           <h1 className="hero-title">
-            Deep Clean. <br />
-            <span className="italic-gold">Fresh Feel.</span>
+            The Art of <br />
+            <span className="italic-gold">Pure Living.</span>
           </h1>
           <p className="hero-description">
-            We restore your sofas, carpets, and living spaces to their finest—right at your doorstep. 
-            Professional, eco-friendly, and trusted across Nairobi.
+            Experience a new standard of hygiene. We provide bespoke restoration 
+            for fine upholstery and carpets, tailored for Nairobi's most elegant homes.
           </p>
           <div className="hero-cta">
-            <button className="btn-gold">BOOK NOW</button>
-            <button className="btn-outline">OUR SERVICES</button>
+            <button className="btn-gold-luxury">BOOK AN APPOINTMENT</button>
+            <button className="btn-glass-luxury"><a href="#reviews" className='pp'>VIEW PORTFOLIO</a></button>
           </div>
         </div>
 
-        {/* Right Side: Visuals */}
-        <div className="hero-visual" data-aos="fade-left">
-          <img 
-            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=2000" 
-            alt="Luxury Sofa Cleaning" 
-            className="hero-img"
-          />
-        </div>
       </div>
     </section>
   );

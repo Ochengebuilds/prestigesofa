@@ -5,7 +5,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import './StickyContact.css';
 
 const StickyContact = () => {
-  const phoneNumber = "254XXXXXXXXX"; // Your business number
+  const phoneNumber = "0102805058"; // Your business number
   const whatsappMessage = encodeURIComponent("Hi Prestige! I'd like to inquire about your cleaning services.");
 
   return (

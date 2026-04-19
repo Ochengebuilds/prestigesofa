@@ -14,6 +14,11 @@ import Stickycontact from "./components/Stickycontact/Stickycontact"
 import About from './components/About/About';
 import Testimonials from './components/Testimonials/Testimonials';
 
+import Socials from './components/Socials/Socials';
+import HowItWorks from './components/HowItWorks/HowItWorks';
+import CustomCursor from './components/Customcursor/Customcursor';
+
+
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -24,14 +29,17 @@ const App = () => {
   }, []);
   return (
     <div className="App">
+      <CustomCursor />
       <Navbar />
       <Hero />
       <Services /> {/* Rendered here */}
       <About />
       <Features />
+      <HowItWorks />
       <Gallery />
       <Testimonials />
       <Booking />
+      <Socials />
       <Footer />
       <Stickycontact />
     </div>

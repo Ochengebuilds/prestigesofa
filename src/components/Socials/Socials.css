@@ -1,0 +1,48 @@
+.socials-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .socials-label {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    color: var(--primary-gold);
+    font-weight: 700;
+    writing-mode: vertical-lr; /* Vertically aligned text for a high-end look */
+    transform: rotate(180deg);
+  }
+  
+  .socials-line {
+    width: 1px;
+    height: 50px;
+    background: rgba(181, 154, 93, 0.3);
+  }
+  
+  .socials-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .social-icon-item {
+    color: #888;
+    font-size: 1.1rem;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    background: transparent;
+  }
+  
+  /* 3D Pop Effect */
+  .social-icon-item:hover {
+    color: var(--white);
+    background-color: var(--hover-color);
+    transform: translateX(10px) scale(1.2);
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+  }

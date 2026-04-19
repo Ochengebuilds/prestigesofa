@@ -1,0 +1,63 @@
+/* Complete reset of the standard cursor - Desktop Only */
+html, body, a, button {
+    cursor: none !important;
+  }
+  
+  .luxury-cursor-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999999;
+  }
+  
+  .cursor-particle {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: radial-gradient(circle, #D4AF37 0%, #B59A5D 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(181, 154, 93, 0.8);
+    will-change: transform;
+    z-index: 1000000;
+  }
+  
+  .cursor-glass-ring {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 50%;
+    /* The "Luxury" Secret: Frosted glass effect */
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px); /* Safari support */
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1), 
+                0 5px 15px rgba(0, 0, 0, 0.1);
+    will-change: transform;
+    transition: width 0.3s ease, height 0.3s ease, background 0.3s ease;
+    z-index: 999999;
+  }
+  
+  /* Hover State - Expanding the glass */
+  .cursor-glass-ring.active {
+    width: 70px;
+    height: 70px;
+    background: rgba(181, 154, 93, 0.05);
+    border-color: rgba(212, 175, 55, 0.6);
+  }
+  
+  /* --- MOBILE & TABLET RESPONSIVENESS --- */
+  @media (max-width: 1024px) {
+    /* Restore the default system cursor for touch devices */
+    html, body, a, button {
+      cursor: auto !important;
+    }
+  
+    /* Kill the custom cursor elements so they don't consume memory */
+    .luxury-cursor-container {
+      display: none !important;
+    }
+  }

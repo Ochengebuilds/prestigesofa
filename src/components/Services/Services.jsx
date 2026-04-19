@@ -1,6 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCouch, faRug, faWind, faHandsBubbles } from '@fortawesome/free-solid-svg-icons';
+import { 
+  faCouch, 
+  faRug, 
+  faWind, 
+  faHandsBubbles, 
+  faHome,      /* Add this */
+  faBuilding,  /* Add this */
+  faHardHat    /* Add this - if using faHardHat */
+} from '@fortawesome/free-solid-svg-icons';
 import './Services.css';
 
 const servicesData = [
@@ -19,14 +27,26 @@ const servicesData = [
   {
     id: 3,
     icon: faWind,
-    title: "Mattress Sanitizing",
+    title: "Mattress Cleaning",
     desc: "Eliminating dust mites and allergens for a healthier night's sleep."
   },
   {
     id: 4,
-    icon: faHandsBubbles,
-    title: "Stain Protection",
-    desc: "Applying premium fabric shields to prevent future spills from soaking in."
+    icon: faHome,
+    title: "Deep House Cleaning",
+    desc: "A comprehensive, top-to-bottom sanitize of your entire home, including overlooked spaces."
+  },
+  {
+    id: 5,
+    icon: faBuilding,
+    title: "Office Cleaning",
+    desc: "Maintain a pristine professional environment. Flexible scheduling for business continuity."
+  },
+  {
+    id: 6,
+    icon: faHardHat,
+    title: "Post-Construction Cleaning",
+    desc: "Specialized dust and debris removal, ensuring your newly built or renovated space is livable."
   }
 ];
 

@@ -8,12 +8,22 @@
   --text-main: #333333;
   --white: #FFFFFF;
   --transition: all 0.3s ease;
+  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+section{
+  scroll-margin-top: 80px;
 }
 
 body {
@@ -22,6 +32,10 @@ body {
   color: var(--text-main);
   line-height: 1.6;
   overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  
 }
 
 h1, h2, h3, .logo-text {

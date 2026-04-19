@@ -6,15 +6,14 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer" data-aos="fade-up"
-    data-aos-anchor-placement="bottom-bottom">
+    <footer className="footer" data-aos="flip-up">
       <div className="footer-container">
         <div className="footer-brand">
           <h2 className="footer-logo">PRESTIGE</h2>
           <p>Nairobi's premier choice for luxury sofa and carpet restoration.</p>
           <div className="footer-socials">
-            <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://web.facebook.com/profile.php?id=61587932279380"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="https://www.instagram.com/prestigesofaandcarpetcare/"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
           </div>
         </div>
@@ -30,7 +29,7 @@ const Footer = () => {
 
         <div className="footer-contact">
           <h3>Contact Us</h3>
-          <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Ongata Rongai, Nairobi</p>
+          <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Nairobi</p>
           <p><FontAwesomeIcon icon={faEnvelope} /> prestigesofaandcarpetcare@gmail.com</p>
         </div>
       </div>
