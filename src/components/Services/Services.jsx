@@ -20,34 +20,38 @@ const servicesData = [
   },
   {
     id: 2,
-    icon: faRug,
-    title: "Carpet Cleaning",
-    desc: "Industrial-grade steam cleaning for rugs and wall-to-wall carpets."
-  },
-  {
-    id: 3,
-    icon: faWind,
-    title: "Mattress Cleaning",
-    desc: "Eliminating dust mites and allergens for a healthier night's sleep."
-  },
-  {
-    id: 4,
     icon: faHome,
     title: "Deep House Cleaning",
     desc: "A comprehensive, top-to-bottom sanitize of your entire home, including overlooked spaces."
   },
   {
-    id: 5,
+    id: 3,
+    icon: faHardHat,
+    title: "Post-Construction Cleaning",
+    desc: "Specialized dust and debris removal, ensuring your newly built or renovated space is livable."
+  },
+  {
+    id: 4,
     icon: faBuilding,
     title: "Office Cleaning",
     desc: "Maintain a pristine professional environment. Flexible scheduling for business continuity."
   },
   {
+    id: 5,
+    icon: faWind,
+    title: "Mattress Cleaning",
+    desc: "Eliminating dust mites and allergens for a healthier night's sleep."
+  },
+  {
     id: 6,
-    icon: faHardHat,
-    title: "Post-Construction Cleaning",
-    desc: "Specialized dust and debris removal, ensuring your newly built or renovated space is livable."
+    icon: faRug,
+    title: "Carpet Cleaning",
+    desc: "Industrial-grade steam cleaning for rugs and wall-to-wall carpets."
   }
+  
+  
+  
+  
 ];
 
 const Services = () => {
