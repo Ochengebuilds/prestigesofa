@@ -9,7 +9,7 @@ const Hero = () => {
         
         <div className="hero-visual" data-aos="zoom-out" data-aos-duration="1500">
           <img 
-            src={images.heroBg} 
+            src={images.heroBgg} 
             alt="Luxury Interior" 
             className="hero-img"
           />
