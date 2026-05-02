@@ -18,13 +18,13 @@ const Hero = () => {
 
         <div className="hero-content" data-aos="fade-up" data-aos-delay="400">
           <div className="accent-line"></div>
-          <p className="hero-tagline">PREMIUM SOFA & CARPET CLEANING IN NAIROBI</p>
+          <p className="hero-tagline">PROFESSIONAL CLEANING SERVICES IN NAIROBI</p>
           <h1 className="hero-title">
           Professional Upholstery <br />
-            <span className="italic-gold">& Carpet Restoration.</span>
+            <span className="italic-gold">& Interior Restoration.</span>
           </h1>
           <p className="hero-description">
-          Restore the elegance of your home with Nairobi’s leading experts in deep sofa cleaning, carpet shampooing, and fabric care. We use eco-friendly technology to remove tough stains and allergens from your fine furniture.
+          Restore the elegance of your home with Nairobi’s leading experts in deep sofa cleaning services. We use eco-friendly technology to remove tough stains and allergens from your fine furniture.
           </p>
           <div className="hero-cta">
             <button className="btn-gold-luxury">BOOK A CLEANING</button>
