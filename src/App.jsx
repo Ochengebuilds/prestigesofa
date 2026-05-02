@@ -17,6 +17,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Socials from './components/Socials/Socials';
 import HowItWorks from './components/HowItWorks/HowItWorks';
 import CustomCursor from './components/Customcursor/Customcursor';
+import FAQ from './components/FAQ/FAQ';
 
 
 const App = () => {
@@ -39,6 +40,7 @@ const App = () => {
       <Gallery />
       <Testimonials />
       <Booking />
+      <FAQ />
       <Socials />
       <Footer />
       <Stickycontact />
