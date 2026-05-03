@@ -62,54 +62,48 @@
  /* Mobile Optimization for Features */
 @media (max-width: 768px) {
   .features-grid {
-    /* Keeping 2 columns for readability, or 3 if you prefer */
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 12px;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for a balanced grid */
+    gap: 15px;
     padding: 10px;
   }
 
-  .feature-card {
-    padding: 15px 8px; /* Compact padding */
-    min-height: 180px; /* Reduced from previous height */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .feature-item {
+    flex-direction: column; /* Stacks icon on top of text */
+    align-items: center;    /* Centers the content */
+    text-align: center;
+    padding: 15px 10px;
+    gap: 12px;              /* Space between icon and title */
   }
 
-  /* Shrinking the Icon Container */
-  .feature-card .icon-container {
-    width: 35px; /* Smaller footprint */
-    height: 35px;
-    margin: 0 auto 10px;
-  }
-
-  .feature-card .icon-container svg {
-    font-size: 1rem; /* Reduces the FontAwesome icon size */
+  /* Correcting the class name to .feature-icon */
+  .feature-icon {
+    min-width: 45px;        /* Smaller icon container */
+    height: 45px;
+    font-size: 1.2rem;      /* Smaller icon size */
+    margin: 0 auto;
   }
 
   /* Typography Scaling */
-  .feature-card h3 {
-    font-size: 0.9rem; /* Smaller, punchier titles */
-    letter-spacing: 0.5px;
-    margin-bottom: 6px;
+  .feature-text h3 {
+    font-size: 0.95rem;     /* Smaller, punchy title */
+    margin-bottom: 5px;
     line-height: 1.2;
   }
 
-  .feature-card p {
-    font-size: 0.75rem; /* Reduced to fit more words in narrow widths */
-    line-height: 1.3;
-    color: rgba(255, 255, 255, 0.8);
-    max-width: 100%;
+  .feature-text p {
+    font-size: 0.75rem;     /* Compact text for readability */
+    line-height: 1.4;
+    color: #a0a0a0;
   }
 }
 
 /* Extra small devices (e.g., iPhone SE) */
-@media (max-width: 360px) {
-  .feature-card h3 {
-    font-size: 0.8rem;
+@media (max-width: 400px) {
+  .features-grid {
+    grid-template-columns: 1fr; /* Switch to 1 column so text isn't squashed */
   }
   
-  .feature-card p {
-    font-size: 0.7rem;
+  .feature-item {
+    padding: 20px;
   }
 }

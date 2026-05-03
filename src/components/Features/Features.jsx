@@ -18,8 +18,8 @@ const Features = () => {
     },
     {
       icon: faClock,
-      title: "Fast Drying",
-      desc: "Advanced extraction tech ensures your furniture is ready to use in hours."
+      title: "Guaranteed Results",
+  desc: "We stand by our craft. If you're not 100% satisfied with the restoration, we'll make it right."
     },
     {
       icon: faHandHoldingDollar,
