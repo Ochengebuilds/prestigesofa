@@ -28,6 +28,27 @@ const testimonialData = [
     location: "RUNDA",
     text: "The best carpet cleaning service in Nairobi. The deep extraction tech they use is clearly superior to the manual scrubbing others do.",
     stars: 5
+  },
+  {
+    id: 4,
+    name: "James Kamau",
+    location: "KASARANI",
+    text: "Impressive efficiency! They handled my deep house cleaning after a renovation, and the attention to detail was top-notch. My home feels completely transformed.",
+    stars: 5
+  },
+  {
+    id: 5,
+    name: "Mercy Njeri",
+    location: "ROYSAMBU",
+    text: "I was skeptical about getting stains out of my white carpet, but the Prestige team worked wonders. Their post-cleaning care advice was also very helpful.",
+    stars: 5
+  },
+  {
+    id: 6,
+    name: "Peter Omondi",
+    location: "MWIKI",
+    text: "Finding a professional cleaning service that respects your schedule is hard. They arrived right on time and did a thorough job on my sofa set. Highly recommended!",
+    stars: 5
   }
 ];
 
