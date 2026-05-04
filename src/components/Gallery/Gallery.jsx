@@ -14,7 +14,7 @@ const Gallery = () => {
       <div className="gallery-container">
         <div className="gallery-header">
           <span className="section-subtitle">OUR WORK</span>
-          <h2 className="section-title">Recent Transformations</h2>
+          <h2 className="section-title">Gallery</h2>
         </div>
         <div className="gallery-grid" data-aos="fade-down"
      data-aos-easing="linear"
