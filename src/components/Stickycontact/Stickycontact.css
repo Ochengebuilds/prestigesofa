@@ -57,3 +57,22 @@
       font-size: 1.3rem;
     }
   }
+
+  /* Add this to your existing CSS */
+
+.tiktok-btn {
+  background-color: #010101; /* TikTok Black */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Optional: Add a subtle glow effect to match your 3D aesthetic */
+.tiktok-btn:hover {
+  box-shadow: 0 0 15px rgba(254, 44, 85, 0.5), 0 0 15px rgba(37, 244, 238, 0.5);
+}
+
+/* Ensure the stacking order looks good on mobile */
+@media (max-width: 768px) {
+  .sticky-contact {
+    gap: 12px; /* Slightly tighter gap for three buttons */
+  }
+}
