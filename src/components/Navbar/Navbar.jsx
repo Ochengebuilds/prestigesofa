@@ -27,11 +27,18 @@ const Navbar = () => {
 
         {/* Right Side Actions */}
         <div className="nav-actions">
-          <a href="tel:+254..." className="nav-phone">
+          <a href="tel:+254102805058" className="nav-phone">
             <FontAwesomeIcon icon={faPhone} />
             <span>Call Us</span>
           </a>
-          <button className="nav-btn desktop-only">BOOK NOW</button>
+          <a 
+  href="https://wa.me/254102805058?text=Hi%20Prestige!%20I'd%20like%20to%20Book%20a%20cleaning%20session." 
+  className="nav-btn desktop-only"
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  BOOK NOW
+</a>
           
           {/* Hamburger Icon */}
           <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>

@@ -7,7 +7,9 @@ import {
   faHandsBubbles, 
   faHome,      /* Add this */
   faBuilding,  /* Add this */
-  faHardHat    /* Add this - if using faHardHat */
+  faHardHat,    /* Add this - if using faHardHat */
+  faBug,         /* Added for Fumigation */
+  faBoxOpen      /* Added for Move In/Out */
 } from '@fortawesome/free-solid-svg-icons';
 import './Services.css';
 
@@ -38,20 +40,28 @@ const servicesData = [
   },
   {
     id: 5,
+    icon: faBug,
+    title: "Fumigation & Pest Control",
+    desc: "Professional-grade pest elimination and prevention to keep your environment safe and hygienic."
+  },
+  {
+    id: 6,
+    icon: faBoxOpen,
+    title: "Move In/Out Cleaning",
+    desc: "Detailed cleaning for new occupants or final handovers, ensuring every corner is spotless."
+  },
+  {
+    id: 7,
     icon: faWind,
     title: "Mattress Cleaning",
     desc: "Eliminating dust mites and allergens for a healthier night's sleep."
   },
   {
-    id: 6,
+    id: 8,
     icon: faRug,
     title: "Carpet Cleaning",
     desc: "Industrial-grade steam cleaning for rugs and wall-to-wall carpets."
   }
-  
-  
-  
-  
 ];
 
 const Services = () => {

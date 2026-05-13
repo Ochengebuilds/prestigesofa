@@ -27,7 +27,15 @@ const Hero = () => {
           Restore the elegance of your home with Nairobi’s leading experts in deep sofa cleaning services. We use eco-friendly technology to remove tough stains and allergens from your fine furniture.
           </p>
           <div className="hero-cta">
-            {/* <button className="btn-gold-luxury">BOOK CLEANING</button> */}
+            <a 
+  href="https://wa.me/254102805058?text=Hi%20Prestige!%20I'm%20interested%20in%20booking%20a%20professional%20cleaning%20service." 
+  className="btn-gold-luxury"
+  target="_blank" 
+  rel="noopener noreferrer"
+  style={{ textDecoration: 'none', display: 'inline-block' }}
+>
+  BOOK CLEANING
+</a>
             <button className="btn-glass-luxury"><a href="#reviews" className='pp'>GALLERY</a></button>
           </div>
         </div>

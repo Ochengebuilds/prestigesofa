@@ -54,12 +54,12 @@ const About = () => {
           <div className="about-stats">
             <div className="stat-item">
               <h4>{sofaCount}+</h4>
-              <p>Sofas Restored</p>
+              <p>Clients Served</p>
             </div>
-            <div className="stat-item">
+            {/* <div className="stat-item">
               <h4>{clientCount}+</h4>
               <p>Happy Clients</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import './StickyContact.css';
 
 const StickyContact = () => {
   const [isOpen, setIsOpen] = useState(true); // Default to open
-  const phoneNumber = "0102805058";
+  const phoneNumber = "254102805058";
   const tiktokUsername = "prestigesofaandcarpetcar";
   const whatsappMessage = encodeURIComponent("Hi Prestige! I'd like to inquire about your cleaning services.");
 

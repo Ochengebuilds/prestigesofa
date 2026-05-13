@@ -12,7 +12,7 @@ const Booking = () => {
 
   const handleWhatsApp = (e) => {
     e.preventDefault();
-    const phoneNumber = "254XXXXXXXXX"; // Replace with your business number
+    const phoneNumber = "254102805058"; // Replace with your business number
     const message = `Hi Prestige! My name is ${formData.name}. I'm in ${formData.location} and I'd like to book ${formData.service}.`;
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
