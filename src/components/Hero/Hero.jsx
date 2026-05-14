@@ -24,7 +24,7 @@ const Hero = () => {
             <span className="italic-gold">& Interior Restoration.</span>
           </h1>
           <p className="hero-description">
-          Restore the elegance of your home with Nairobi’s leading experts in Professional cleaning services. We use eco-friendly technology to remove tough stains and allergens from your fine furniture.
+          Restore the elegance of your home with Nairobi’s leading experts in Professional cleaning services. We use eco-friendly technology to remove tough stains and allergens from your household.
           </p>
           <div className="hero-cta">
             <a 
