@@ -41,8 +41,10 @@ const Booking = () => {
               <select onChange={(e) => setFormData({...formData, service: e.target.value})}>
                 <option>Sofa Cleaning</option>
                 <option>Carpet Cleaning</option>
-                <option>Mattress Sanitizing</option>
-                <option>Full Home Deep Clean</option>
+                <option>Mattress cleaning</option>
+                <option>Deep House Cleaning</option>
+                <option>Post Construction Cleaning</option>
+                <option>Fumigation</option>
               </select>
             </div>
 
